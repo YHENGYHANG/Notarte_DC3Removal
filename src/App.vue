@@ -28,8 +28,7 @@ function display(data){
 
 
 <template>
-<EnrollmentForm @notify="display"/>
-
+<EnrollmentForm @enroll="display"/>
 <hr></hr>
 
 <h4>PROPS</h4>
