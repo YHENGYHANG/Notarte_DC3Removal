@@ -1,12 +1,7 @@
 <script setup>
-import EnrollmentForm from './components/EnrollmentForm.vue';
+import StudentForm from './components/StudentForm.vue';
 import {ref, defineProps} from 'vue'
 
-defineProps({
-  name: String,
-  age: Number,
-  email: String
-})
 
 
 const info = ref({
@@ -15,7 +10,6 @@ const info = ref({
   email: '',
   course: '',
   yrlvl: '',
-  reason: ''
 })
 
 function display(data){
@@ -28,11 +22,8 @@ function display(data){
 
 
 <template>
-<EnrollmentForm @enroll="display"/>
+<StudentForm @student-submitted="display"/>
 <hr></hr>
 
-<h4>PROPS</h4>
-<p>Name: {{ name }}</p>
-<p>Age: {{ age }}</p>
-<p>Email: {{ email }}</p>
+
 </template>
