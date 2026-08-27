@@ -1,25 +1,33 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Home from "../views/Home.vue";
-import About from "../views/About.vue";
-import Contact from "../views/Contact.vue";
+
+import Ecom from "../views/Ecom.vue";
+import Product from "../views/Product.vue";
+import BasketPage from "../views/BasketPage.vue";
+import Orders from "../views/Orders.vue";
 
 const routes = [{
         path: '/',
-        name: 'Home',
-        component: Home
+        name: 'Ecom',
+        component: Ecom
     },
 
     {
-        path: '/about',
-        name: 'About',
-        component: About
+        path: '/product',
+        name: 'Product',
+        component: Product
     },
 
     {
-        path: '/contact',
-        name: 'Contact',
-        component: Contact
+        path: '/basketPage',
+        name: 'BasketPage',
+        component: BasketPage
+    },
+
+    {
+        path: '/orders',
+        name: 'Orders',
+        component: Orders
     }
 
 ]

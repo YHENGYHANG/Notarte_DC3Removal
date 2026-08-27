@@ -4,8 +4,8 @@
 
 <template>
     <div>   
-        <h4>About</h4>
-        <p>This is About</p>
+        <h4>This is BasketPage</h4>
+        <p>This is Baskets</p>
 
     </div>
 </template>

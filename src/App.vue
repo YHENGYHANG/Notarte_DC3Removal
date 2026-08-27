@@ -26,17 +26,19 @@
 
   <div>
     <nav>
-    <!-- <RouterLink to="/">Home</RouterLink> |
-    <RouterLink to="/About">About</RouterLink> |
-    <RouterLink to="/Contact">Contact</RouterLink> -->
+    <RouterLink to="/">EcoM</RouterLink> |
+    <RouterLink to="/product">Product</RouterLink> |
+    <RouterLink to="/basketPage">BasketPage</RouterLink> |
+    <RouterLink to="/orders">Orders</RouterLink>
 
-    <RouterLink :to="{name: 'Home'}">Home</RouterLink> |
+
+    <!-- <RouterLink :to="{name: 'Home'}">Home</RouterLink> |
     <RouterLink :to="{name: 'About'}">About</RouterLink> |
-    <RouterLink :to="{name: 'Contact'}">Contact</RouterLink>
+    <RouterLink :to="{name: 'Contact'}">Contact</RouterLink> -->
     </nav>
 
     <hr></hr>
     <RouterView />
-    
+
   </div>
 </template>
